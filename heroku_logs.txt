@@ -1,0 +1,14 @@
+2020-10-17T00:38:02.166698+00:00 heroku[web.1]: Unidling
+2020-10-17T00:38:02.169178+00:00 heroku[web.1]: State changed from down to starting
+2020-10-17T00:38:05.785532+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T00:38:07.727415+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-17T00:38:07.727429+00:00 app[web.1]: * Environment: production
+2020-10-17T00:38:07.727474+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-17T00:38:07.727479+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-17T00:38:07.727516+00:00 app[web.1]: * Debug mode: off
+2020-10-17T00:38:07.735034+00:00 app[web.1]: * Running on http://0.0.0.0:54108/ (Press CTRL+C to quit)
+2020-10-17T00:38:07.873041+00:00 heroku[web.1]: State changed from starting to up
+2020-10-17T00:38:09.230698+00:00 app[web.1]: 10.63.192.219 - - [17/Oct/2020 00:38:09] "GET / HTTP/1.1" 200 -
+2020-10-17T00:38:09.234890+00:00 heroku[router]: at=info method=GET path="/" host=si2bac3-leozabotto.herokuapp.com request_id=8e591c21-8ebe-4412-aee6-c201357a615d fwd="200.49.54.234" dyno=web.1 connect=0ms service=4ms status=200 bytes=541 protocol=https
+2020-10-17T00:38:10.483890+00:00 app[web.1]: 10.63.192.219 - - [17/Oct/2020 00:38:10] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-17T00:38:10.487842+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=si2bac3-leozabotto.herokuapp.com request_id=5677a41e-fd05-4fc0-8a97-419ddeb91872 fwd="200.49.54.234" dyno=web.1 connect=0ms service=10ms status=404 bytes=379 protocol=https
